@@ -1,5 +1,11 @@
 body {
 	font-family: "Open Sans";
+	padding-bottom: 120px;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
 }
 
 .wrapper {
@@ -59,3 +65,28 @@ body {
 
 
 /* WORKS */
+
+.works {
+	text-align: center;
+}
+
+.works ul {
+	margin-top: 40px;
+}
+
+.works li {
+	display: inline-block;
+	width: 200px;
+	margin: 40px 0;
+	vertical-align: top;
+}
+
+.work-img img {
+	width: 60px;
+}
+
+.work-description a {
+	text-decoration: none;
+	color: #08f;
+	border-bottom: 1px solid #8af;
+}
