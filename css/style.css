@@ -41,9 +41,13 @@ ul {
 /* TEXT */
 
 .text {
-	padding: 0 20px;
 	margin-top: 80px;
 	font-weight: 300;
+	overflow: hidden;
+}
+
+.row {
+	padding: 0 20px;
 	overflow: hidden;
 }
 
@@ -89,4 +93,24 @@ ul {
 	text-decoration: none;
 	color: #08f;
 	border-bottom: 1px solid #8af;
+}
+
+
+/* BOOKS */
+
+.books h2 {
+	font-size: 22px;
+	font-weight: 400;
+	margin: 80px auto 0;
+	text-align: center;
+}
+
+
+.books .row {
+	margin-top: 40px;
+	font-weight: 300;
+}
+
+.books ul {
+	padding-left: 30px;
 }
