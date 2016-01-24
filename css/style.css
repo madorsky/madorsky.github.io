@@ -72,6 +72,7 @@ ul {
 
 .works {
 	text-align: center;
+	font-size: 14px;
 }
 
 .works ul {
@@ -80,8 +81,13 @@ ul {
 .works li {
 	display: inline-block;
 	width: 160px;
-	margin: 40px 0 0;
+	margin: 30px 0 0;
 	vertical-align: top;
+	padding: 0 5px;
+}
+
+.own-works li {
+	width: 220px;
 }
 
 /*.work-img img {
@@ -102,7 +108,17 @@ ul {
 
 .works a span {
 	color: #08f;
-	border-bottom: 1px solid #8af;
+	border-bottom: 1px solid #adf;
+	line-height: 1.5;
+}
+
+.works a span + span {
+	color: #555;
+	border-bottom: none;
+	display: block;
+	margin-top: 5px;
+	font-size: 13px;
+	line-height: 1.2;
 }
 
 .works a:hover {
@@ -125,10 +141,14 @@ ul {
 
 
 .books .row {
-	margin-top: 40px;
+	margin-top: 20px;
 	font-weight: 300;
 }
 
 .books ul {
 	padding-left: 30px;
+}
+
+.books ul li {
+	padding: 5px 0;
 }
